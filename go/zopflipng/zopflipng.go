@@ -18,7 +18,7 @@ import (
 )
 
 /*
-#cgo LDFLAGS: -lzopflipng -lzopfli -lstdc++ -lm
+#cgo CFLAGS: -I../../src/zopflipng
 #include <stdlib.h>
 #include <string.h>
 #include "zopflipng_lib.h"
